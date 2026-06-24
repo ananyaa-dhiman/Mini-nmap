@@ -107,18 +107,4 @@ Sequential scanning of N ports takes roughly `N × timeout` in the worst case (e
 
 Only scan systems you own or have explicit written permission to test. Unauthorized scanning of networks you don't control may violate computer misuse laws (e.g., the Computer Fraud and Abuse Act in the US, or equivalent laws elsewhere). This tool is for educational use and authorized security assessments only.
 =======
-# Mini-nmap
-A lightweight Python-based network scanning tool inspired by Nmap, designed to identify active hosts, discover open ports, and gather basic network information. This project demonstrates fundamental cybersecurity concepts such as network reconnaissance, port scanning, service enumeration, and socket programming.
-# Features
-- TCP connect scanning
-- Service detection on common ports
-- Multithreading for scan speed across ports/hosts
-- Service version scanning (banner grabbing + protocol probes)
-- OS detection (TTL analysis + banner heuristics)
-- Local network discovery (what network am I on / live hosts)
-# Technologies Used
-1.Python
-2.Socket Programming
-3.Threading
-4.Networking Protocols (TCP/IP)
->>>>>>> 3c539bd7c5865f8d2bb0aa76d438d02f2d5ed1ed
+
