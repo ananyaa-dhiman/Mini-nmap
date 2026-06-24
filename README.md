@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # Mini Nmap — Mini Network Scanner
-
 A lightweight, Nmap-inspired network scanning tool built in Python using **sockets** and **multithreading**. Built as a cybersecurity internship project.
 
 ## Features
