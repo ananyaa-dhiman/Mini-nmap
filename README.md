@@ -106,4 +106,12 @@ Sequential scanning of N ports takes roughly `N × timeout` in the worst case (e
 ## Legal / Ethical Note
 Only scan systems you own or have explicit written permission to test. Unauthorized scanning of networks you don't control may violate computer misuse laws (e.g., the Computer Fraud and Abuse Act in the US, or equivalent laws elsewhere). This tool is for educational use and authorized security assessments only.
 
+## Installation on Linux
+git clone https://github.com/ananyaa-dhiman/Mini-nmap.git
+ls
+cd Mini-nmap
+ls
+python3 mini_nmap.py -h
+
+
 
