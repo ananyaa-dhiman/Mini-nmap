@@ -104,7 +104,6 @@ This is lower-confidence than raw fingerprinting but is explainable, accurate en
 Sequential scanning of N ports takes roughly `N × timeout` in the worst case (e.g., scanning firewalled/filtered ports that don't respond until the timeout fires). With a thread pool, all N ports are attempted concurrently, so total time approaches a single `timeout` regardless of N. In testing, scanning 50 filtered ports went from ~25 seconds (1 thread) to ~0.5 seconds (50 threads) — **about a 49x speedup**, which is the core efficiency gain this project demonstrates.
 
 ## Legal / Ethical Note
-
 Only scan systems you own or have explicit written permission to test. Unauthorized scanning of networks you don't control may violate computer misuse laws (e.g., the Computer Fraud and Abuse Act in the US, or equivalent laws elsewhere). This tool is for educational use and authorized security assessments only.
-=======
+
 
